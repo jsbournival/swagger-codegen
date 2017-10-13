@@ -1,7 +1,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <groupId>io.swagger</groupId>
+        <groupId>com.appdirect</groupId>
         <artifactId>swagger-codegen-project</artifactId>
         <version>2.2.3</version>
         <relativePath>../..</relativePath>
@@ -75,9 +75,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>io.swagger</groupId>
-            <artifactId>swagger-codegen</artifactId>
-            <version>${project.version}</version>
+            <groupId>com.appdirect</groupId>
+            <artifactId>appdirect-swagger-codegen</artifactId>
+            <version>1.1.0</version>
         </dependency>
         <!--https://github.com/airlift/airline-->
         <dependency>
